@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.ComplaintDetailsActivity"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_margin="8dp">
+
+    <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:textSize="50dp"
+            android:layout_height="wrap_content" tools:ignore="InvalidId,MissingConstraints" tools:text="nombre"
+            tools:layout_editor_absoluteY="28dp" tools:layout_editor_absoluteX="16dp"/>
+
+
+    <TextView
+            android:id="@+id/dateTextView"
+            android:textSize="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:ignore="InvalidId,MissingConstraints" tools:text="kg"
+            tools:layout_editor_absoluteY="135dp" tools:layout_editor_absoluteX="16dp"/>
+
+
+    <TextView
+            android:id="@+id/complaintTextView"
+            android:textSize="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:ignore="InvalidId,MissingConstraints" tools:text="Peso"
+            tools:layout_editor_absoluteY="340dp" tools:layout_editor_absoluteX="16dp"/>
+
+    <Button
+            android:id="@+id/pesaBtn"
+            android:text="Weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="466dp"
+            tools:layout_editor_absoluteX="31dp" tools:ignore="MissingConstraints"/>
+
+    <Button
+            android:id="@+id/addCartBtn"
+            android:text="Add to Cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="466dp"
+            tools:layout_editor_absoluteX="221dp" tools:ignore="MissingConstraints"/>
+
+
+
+
+
+    <!-- This is the layout for adding a commentary -->
+    <!-- had to be made this way so it didn't clip over the comment section-->
+
+
+
+</android.support.constraint.ConstraintLayout>

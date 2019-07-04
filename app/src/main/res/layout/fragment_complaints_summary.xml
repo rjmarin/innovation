@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragments.ComplaintsFragment">
+
+    <TextView
+            android:id="@+id/activeComplaintsTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/complaints_summary_fragment_active_complaints_title"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/activeComplaintsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/activeComplaintsTitleTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="0"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:id="@+id/repliedComplaintsTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/activeComplaintsTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/complaints_summary_fragment_replied_complaints_title"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/repliedComplaintsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/repliedComplaintsTitleTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="0"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+</android.support.constraint.ConstraintLayout>

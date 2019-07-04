@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Lab4</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="emailHint">Correo Electrónico</string>
+    <string name="passwordHint">Contraseña</string>
+    <string name="loginButtonText">Iniciar Sesión</string>
+    <string name="emailError">Correo Electrónico Erroneo!</string>
+    <string name="passwordError">Contraseña Vacía!</string>
+
+    <!-- HOME FRAGMENT -->
+    <string name="home_fragment_welcome_prepend">Bienvenido</string>
+
+    <!-- CREATE COMPLAINT FRAGMENT -->
+    <string name="make_complaint_fragment_name_title">Nombre</string>
+    <string name="make_complaint_fragment_commentary_title">Queja</string>
+    <string name="make_complaint_fragment_create_button">Crear</string>
+
+    <!-- COMPLAINTS FRAGMENT -->
+    <string name="complaints_fragment_id_prefix">ID</string>
+    <string name="complaints_fragment_name_prefix">NOMBRE</string>
+    <string name="complaints_fragment_date_prefix">FECHA</string>
+    <string name="complaints_fragment_commentary_prefix">COMENTARIO</string>
+
+    <!-- COMPLAINTS SUMMARY FRAGMENT -->
+    <string name="complaints_summary_fragment_active_complaints_title">Quejas Activas</string>
+    <string name="complaints_summary_fragment_replied_complaints_title">Quejas Contestadas</string>
+
+    <!-- SHARED PREFERENCES -->
+    <string name="credentials_shared_preference_file">com.example.lab.CREDENTIALS_PREFERENCE_FILE_KEY</string>
+    <string name="useremail_credential_key">EMAIL</string>
+    <string name="password_credential_key">PASSWORD</string>
+    <string name="default_empty_credential_value"></string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="navigation_drawer_home_title">Inicio</string>
+    <string name="navigation_drawer_make_complaint_title">Realizar Queja</string>
+    <string name="navigation_drawer_complaints_title">Quejas Mías</string>
+    <string name="navigation_drawer_others_complaints_title">Quejas de Otros</string>
+    <string name="navigation_drawer_complaints_summary_title">Resumen Quejas</string>
+    <string name="navigation_drawer_sign_out_title">Cerrar Sesión</string>
+
+    <!-- ACTION BAR -->
+    <string name="action_bar_home_title">Home</string>
+    <string name="action_bar_make_complaint_title">Realizar Queja</string>
+    <string name="action_bar_complaints_title">Mis Quejas</string>
+    <string name="action_bar_others_complaints_title">Quejas de Otros</string>
+    <string name="action_bar_complaints_summary_title">Resumen Quejas</string>
+
+</resources>
